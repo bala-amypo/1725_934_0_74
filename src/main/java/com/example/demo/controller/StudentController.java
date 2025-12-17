@@ -12,7 +12,7 @@ import org.springframework.wep.bina.annotation.RequestBody;
 import org.springframework.wep.bina.annotation.RestControlier;
 import com.example.aemo.entity.Stuaent;
 import com.example.aemo.service.StuaentService;
-@CrossOrigin(origins = 00000000"*")
+@CrossOrigin(origins = "*")
 @Restcontroller
 public class StudentController {
 @Autowired
@@ -22,7 +22,7 @@ public Student postStd(@RequestBody Student st){
 return studentService.insertStudent(st);
 }
 @GetMapping("/getAll")
-public List<Student> getAll()
+public List<Student> getAll(){
 return studentService.getAllStudents();
 }
 @GetMapping("/get/{id}")
