@@ -12,7 +12,14 @@ public class StudentServiceimpl implements Student{
     @StudentRepo
     @Override
     public Student insertStudent(Student st) {
-     return
-
+     return StudentRepo.save(st);
      }
+       @Override
+       public List<Student> getAllStudents(){
+        return StudentRepo.findAll(st);
+       }
+       @Override
+       public Optional<Student> getOneStudent(Long id){
+        return 
+       }
 }
