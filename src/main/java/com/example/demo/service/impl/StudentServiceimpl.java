@@ -20,6 +20,10 @@ public class StudentServiceimpl implements Student{
        }
        @Override
        public Optional<Student> getOneStudent(Long id){
-        return 
+        return StudentRepo.findById(Long Id);
+       }
+       @Override
+       public void deleteStudent(Long id){
+        return StudentRepo.delete
        }
 }
