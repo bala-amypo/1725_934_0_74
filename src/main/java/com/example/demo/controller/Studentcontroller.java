@@ -1,4 +1,4 @@
-gkestcontroller
+@Restcontroller
 public class StudentController {
 @Autowired
 StudentService studentService;
