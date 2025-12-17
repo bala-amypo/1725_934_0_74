@@ -23,7 +23,6 @@ public class Student {
         this.dob = dob;
         this.cgpa = cgpa;
     }
-
     public long getId() {
         return id;
     }
@@ -54,6 +53,4 @@ public class Student {
     public void setCgpa(float cgpa) {
         this.cgpa = cgpa;
     }
-
-    
 }
