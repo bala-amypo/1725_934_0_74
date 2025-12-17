@@ -1,4 +1,4 @@
-package com. example. demo. controliers
+package com. example. demo. controliers;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.wep.bina.annotation.RequestBody;
 import org.springframework.wep.bina.annotation.RestControlier;
 import com.example.aemo.entity.Stuaent;
 import com.example.aemo.service.StuaentService;
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = 00000000"*")
 @Restcontroller
 public class StudentController {
 @Autowired
